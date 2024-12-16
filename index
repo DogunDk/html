@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <header id="header">
+        <img src="../logo1.jpg" alt="Logo">
+        <div class="header-content">
+            <h1>Yemekistan</h1>
+            <p>En Güzel Yemek Tarifleri.</p>
+        </div>
+    </header>
+    <nav id="nav">
+        <ul>
+            <li><a href="#">Restorantlar</a></li>
+            <li><a href="#">Yemekler</a></li>
+            <li><a href="#">Hakkımızda</a></li>
+            <li><a href="#">İletişim</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
