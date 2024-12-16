@@ -1,0 +1,58 @@
+#header {
+    display: flex; /* Flexbox özelliğini etkinleştirir */
+    align-items: center; /* İçeriği dikeyde ortalar */
+    justify-content: space-between; /* Solda logo, ortada metin */
+    background-color: #FEF3E2; /* Açık arka plan */
+    color: #000; /* Yazı rengini siyah yapar */
+    padding: 10px 20px; /* İçerik kenar boşlukları */
+}
+#header img {
+    max-height: 150px; /* Yüksekliği maksimum 80px ile sınırla */
+    height: auto; /* Yüksekliği orantılı şekilde ayarla */
+    width: auto; /* Genişliği orantılı şekilde ayarla */
+    margin-right: 20px; /* Logonun yanına boşluk ekle */
+}
+.header-content {
+    text-align: center; /* Metni ortaya hizalar */
+    flex-grow: 1; /* Ortadaki içerik genişliğini esnek yapar */
+}
+#header h1 {
+    color: #000;
+    padding-top: 50px;
+    font-size: 2.5rem; /* Başlık boyutunu büyüt */
+    font-weight: bold; /* Başlık metnini kalın yap */
+    margin: 0; /* Margin sıfırla */
+} 
+#header p {
+    color: #000;
+    font-size: 1.25rem; /* Açıklama boyutunu ayarla */
+    margin-top: 10px; /* Başlık ile açıklama arasına mesafe ekle */
+}
+#nav {
+    background-color: aquamarine; /* Koyu gri arka plan */
+}
+nav ul li {
+    margin-right: 10px; /* Bağlantılar arasına boşluk ekler */
+}
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0; 
+    background-color: #FAB12F; 
+    overflow: hidden; /* İçeriğin taşmasını engeller */
+    text-align: center; /* Liste öğelerini yatayda ortalar */
+}
+nav ul li {
+    display: inline-block; /* Liste öğelerini yatayda sıralar */
+}
+
+nav ul li a {
+    display: block; /* Bağlantıyı blok seviyesinde yapar */
+    color: #000; /* Yazı rengini siyah yapar */
+    padding: 14px 20px; /*dikeyde 14px yatayda 20px */
+    text-decoration: none; 
+}
+nav ul li a:hover {
+    background-color: #555; 
+    color: white; 
+}
